@@ -23,7 +23,11 @@ public class Problem_014 {
         result1=(num1+num2)-num3;
         result2=(num4*num5)/num6;
 
+<<<<<<< HEAD
         System.out.println(result2+" modded by"+" "+result1+" is"+" "+result2%result1);
+=======
+        System.out.println(result2+" modded by"+" "+result1+" is"+" "+result2/result1);
+>>>>>>> 2ebff86... Repls 17-30
 
     }
 }

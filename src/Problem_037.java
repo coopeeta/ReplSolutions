@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_37 {
+public class Problem_037 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Are you thirsty?");

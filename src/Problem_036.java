@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_36 {
+public class Problem_036 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please enter two strings");

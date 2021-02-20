@@ -7,7 +7,7 @@ Instructions: Please use variables to assign the result of arithmetic operations
 Output:
 The result of arithmetic operations is equal to ___
  */
-public class Problem_12 {
+public class Problem_012 {
     public static void main(String[] args) {
         int num1 = 3;
         int num2 = 7;

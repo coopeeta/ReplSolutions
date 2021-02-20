@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_39 {
+public class Problem_039 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please enter your mark");

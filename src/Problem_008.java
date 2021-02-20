@@ -4,7 +4,7 @@ Use the concatenation operation to make the following output
 **Output:**
 syntaxtechs.com
  */
-public class Problem_8 {
+public class Problem_008 {
     public static void main (String[] args){
 
         String var1="syntaxtechs";

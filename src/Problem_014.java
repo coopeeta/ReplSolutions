@@ -6,7 +6,7 @@
 result2           result1    blank3
 where blank3 is the remainder of result1 into result2
  */
-public class Problem_14 {
+public class Problem_014 {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 4;

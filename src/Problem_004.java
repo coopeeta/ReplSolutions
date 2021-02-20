@@ -8,7 +8,7 @@ Output:
 ##
 #
  */
-public class Problem_4 {
+public class Problem_004 {
     public static void main(String[] args) {
 
         System.out.println("*");

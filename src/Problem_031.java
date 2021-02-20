@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_31 {
+public class Problem_031 {
     public static void main(String[] args) {
 
         boolean isSunny;

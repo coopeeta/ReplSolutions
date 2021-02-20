@@ -3,7 +3,7 @@ Write a program to print the perimeter and area of a rectangle with width = 5 an
 **Output:**
 The perimeter of a rectangle with width __ and height __ is equals to __ and the area equals to __
  */
-public class Problem_11 {
+public class Problem_011 {
     public static void main(String[] args) {
 
         int rWidth = 5;

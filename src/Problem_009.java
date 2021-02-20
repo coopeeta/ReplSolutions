@@ -4,7 +4,7 @@ Multiply the value by itself and print the result.
 **Output:**
 The multiplication of ___ with itself is equal to ____
  */
-public class Problem_9 {
+public class Problem_009 {
     public static void main (String[] args){
 
         float var1=8.2f;

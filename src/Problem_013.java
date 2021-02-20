@@ -19,7 +19,7 @@ It's math magic!
 Output:
 The magic number is _!
  */
-public class Problem_13 {
+public class Problem_013 {
     public static void main (String[] args) {
 
         int myNumber=7;

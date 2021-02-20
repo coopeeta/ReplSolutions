@@ -8,7 +8,7 @@ Output:
 20000
 2
  */
-public class Problem_10 {
+public class Problem_010 {
     public static void main (String[] args){
 
         int num1=200;

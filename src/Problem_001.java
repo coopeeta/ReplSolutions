@@ -11,7 +11,7 @@ false
 ```
 Hint: You are missing something that is needed by java to run your script
  */
-public class Problem_1 {
+public class Problem_001 {
     public static void main(String[] args) {
         boolean isTrue;
         boolean isFalse;

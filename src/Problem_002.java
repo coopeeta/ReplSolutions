@@ -10,7 +10,7 @@ For you to do:
 ```
 Hint: You are missing something that is needed by java to run your script
  */
-public class Problem_2 {
+public class Problem_002 {
     public static void main(String[] args) {
 
         int age;

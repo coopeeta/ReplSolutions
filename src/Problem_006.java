@@ -6,7 +6,7 @@ Create a variable and assign the value of "Smith" to it.
 ```
 John Smith
  */
-public class Problem_6 {
+public class Problem_006 {
 
     public static void main (String[] args) {
 

@@ -8,7 +8,7 @@
  ```
  99999.99false
  */
-public class Problem_3 {
+public class Problem_003 {
     public static void main(String[] args) {
 
         boolean myBoolean=false;

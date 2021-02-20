@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_40 {
+public class Problem_040 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter name of the instructor");

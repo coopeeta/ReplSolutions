@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_34 {
+public class Problem_034 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please enter 3 distinct numbers");

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem_35 {
+public class Problem_035 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Do you need a loan?");

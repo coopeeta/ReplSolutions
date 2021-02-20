@@ -9,7 +9,7 @@ Output:
 Chen
 5050
  */
-public class Problem_5 {
+public class Problem_005 {
     public static void main (String[] args) {
         String name ="Chen";
         int age = 50;

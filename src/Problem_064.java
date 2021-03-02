@@ -15,17 +15,12 @@ import java.util.Scanner;
 
 public class Problem_064 {
     public static void main(String[] args) {
-        Scanner inp;
-        int end;
+        Scanner inp= new Scanner(System.in);
         System.out.print("Int:");
+        int end= inp.nextInt();
+
         //write your code below
-
-        inp = new Scanner(System.in);
-        end = inp.nextInt();
-
-        int i;
-
-        for (i = 0; i < end * 2; i++) {
+        for (int i = 0; i < end * 2; i++) {
             System.out.print(i + " ");
         }
     }

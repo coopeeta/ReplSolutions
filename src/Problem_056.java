@@ -12,10 +12,7 @@ Output:
  */
 public class Problem_056 {
     public static void main(String[] args) {
-
-        int i;
-
-        for (i = 2; i <= 14; i++) {
+        for (int i = 2; i <= 14; i++) {
 
             if (i % 2 == 0) {
                 System.out.println(i);

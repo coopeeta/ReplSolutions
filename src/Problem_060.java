@@ -16,15 +16,10 @@ Happy New Year!
 public class Problem_060 {
     public static void main(String[] args) {
 
-        int i;
-
-        for (i = 10; i >= 1; i--) {
+        for (int i = 10; i >= 1; i--) {
 
             System.out.println(i);
-
-            if (i == 1) {
-                System.out.println("Happy New Year!");
-            }
         }
+        System.out.println("Happy New Year!");
     }
 }

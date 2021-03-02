@@ -14,16 +14,13 @@ import java.util.Scanner;
 
 public class Problem_063 {
     public static void main(String[] args) {
-        Scanner inp;
-        int x;
+        Scanner inp=new Scanner(System.in);
+
         System.out.print("In:");
+        int x=inp.nextInt();
         //write code under on step 8
-        inp = new Scanner(System.in);
-        x = inp.nextInt();
 
-        int i;
-
-        for (i = 0; i < x; i++) {
+        for (int i = 0; i < x; i++) {
             System.out.println(i);
         }
     }

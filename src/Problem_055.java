@@ -11,9 +11,7 @@ Output:
 public class Problem_055 {
     public static void main(String[] args) {
 
-        int i;
-
-        for (i = 10; i > 0; i--) {
+        for (int i = 10; i > 0; i--) {
 
             if (i % 2 == 0) {
                 System.out.println(i);

@@ -17,9 +17,8 @@ Output:
  */
 public class Problem_054 {
     public static void main(String[] args) {
-        int i;
 
-        for (i = 0; i < 12; i++) {
+        for (int i = 0; i < 12; i++) {
             System.out.println(i);
         }
     }

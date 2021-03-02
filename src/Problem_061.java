@@ -14,10 +14,7 @@ Expected Output:
  */
 public class Problem_061 {
     public static void main(String[] args) {
-
-        int i;
-
-        for (i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(3 + "*" + i + "=" + i * 3);
         }
     }

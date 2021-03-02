@@ -15,9 +15,7 @@ Expected Output:
 public class Problem_057 {
     public static void main(String[] args) {
 
-        int i;
-
-        for (i = 5; i < 22; i++) {
+        for (int i = 5; i < 22; i++) {
 
             if (i % 2 != 0) {
                 System.out.println(i);

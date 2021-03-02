@@ -23,10 +23,7 @@ Hey, it is year:
 */
 public class Problem_059 {
     public static void main(String[] args) {
-
-        int i;
-
-        for (i = 2011; i <= 2019; i++) {
+        for (int i = 2011; i <= 2019; i++) {
             System.out.println("Hey,it is year:");
             System.out.println(i);
         }

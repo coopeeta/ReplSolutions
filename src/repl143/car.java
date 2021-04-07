@@ -13,7 +13,7 @@ class car {
         this.numberOfDoors=numberOfDoors;
         topSpeed=90;
         this.price=0;
-        Display();
+
     }
 
     car(int numberOfDoors,int topSpeed,double price){
@@ -22,7 +22,7 @@ class car {
         this.numberOfDoors=numberOfDoors;
         this.topSpeed=topSpeed;
         this.price=price;
-        Display();
+
     }
 
     car(String make,String model,int topSpeed,double price){
@@ -31,7 +31,7 @@ class car {
         numberOfDoors=4;
         this.topSpeed=topSpeed;
         this.price=price;
-        Display();
+
     }
 
     car(String make,String model,int numberOfDoors,int topSpeed,double price)
@@ -41,7 +41,7 @@ class car {
         this.price=price;
     }
 
-    void Display(){
+    void display(){
         System.out.println(make+" "+model+" "+numberOfDoors+" "+topSpeed+" "+price);
     }
 }

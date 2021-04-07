@@ -7,7 +7,7 @@ class Main {
     }
 
     public static int maxValue(int[] myArr) {
-        int max = Integer.MIN_VALUE;
+        int max = myArr[0];
         for (int i : myArr) {
             if (i > max) {
                 max = i;

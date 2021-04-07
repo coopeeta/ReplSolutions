@@ -1,16 +1,16 @@
 package repl165;
 
 class Parent{
-    public void Public_Method(){
+    public void PublicMethod(){
         System.out.println("I am a Parent public method");
     }
-    protected void Protected_Method(){
+    protected void ProtectedMethod(){
         System.out.println("I am a Parent protected method");
     }
-    void Default_Method(){
+    void DefaultMethod(){
         System.out.println("I am a Parent default method");
     }
-    private void Private_Method(){
+    private void PrivateMethod(){
         System.out.println("I am a Parent private method");
     }
 }

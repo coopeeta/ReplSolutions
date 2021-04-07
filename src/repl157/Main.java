@@ -7,13 +7,13 @@ class Main {
     }
 }
 
-class Parent {    //   static
+class Parent {
     void m1() {
         System.out.println("m1 method in parent class");
     }
 }
 
-class Child extends Parent {    //    static
+class Child extends Parent {
     void m1() {
         System.out.println("m1 method in child class");
     }

@@ -1,6 +1,6 @@
 package repl166;
 
-class Main {
+public class Main {
         public static void main(String[] args){
             Animal obj=new Animal("Cat");
             obj.eat();

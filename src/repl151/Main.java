@@ -7,7 +7,6 @@ class Main extends Method {
                 {4, 5, 6},
                 {7, 8, 9}
         };
-        new Method();
         System.out.println(Method.sum2d(a));
     }
 }

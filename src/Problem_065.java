@@ -20,7 +20,7 @@ public class Problem_065 {
         Scanner inp = new Scanner(System.in);
         int x = inp.nextInt();
         for (int i = x - 1; i >= 0; i--) {
-            System.out.println(i);
+            System.out.print(i+" ");
         }
     }
 }

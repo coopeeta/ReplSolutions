@@ -21,8 +21,6 @@ public class Problem_031 {
             }else {
                 System.out.println("I am going to the park");
             }
-
-
         }else
         {
             System.out.println("I stay home and practice Java");

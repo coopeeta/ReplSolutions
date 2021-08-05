@@ -21,7 +21,7 @@ public class Problem_063 {
         //write code under on step 8
 
         for (int i = 0; i < x; i++) {
-            System.out.println(i);
+            System.out.print(i+" ");
         }
     }
 }

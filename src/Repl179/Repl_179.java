@@ -1,28 +1,26 @@
 package Repl179;
 
 class EncapsulationDemo{
-    String empName;
-    int empAge;
-    EncapsulationDemo(){
-    }
-    public void Set_EmpName(String empName){
+   private String empName;
+    private int empAge;
+    public void setEmpName(String empName){
         if(empName.length()>1){
             this.empName=empName;
         }else{
             System.out.println("Name must be provided");
         }
     }
-    public void Set_EmpAge(int empAge){
+    public void setEmpAge(int empAge){
         if(empAge>18){
             this.empAge=empAge;
         }else{
             System.out.println("Employee must be at least 18");
         }
     }
-    public String Get_EmpName(){
+    public String getEmpName(){
         return this.empName;
     }
-    public int Get_EmpAge(){
+    public int getEmpAge(){
         return this.empAge;
     }
 
@@ -30,9 +28,9 @@ class EncapsulationDemo{
 class Main {
     public static void main(String[] args){
         EncapsulationDemo encapsulation=new EncapsulationDemo();
-        encapsulation.Set_EmpName("Mario");
-        encapsulation.Set_EmpAge(32);
-        System.out.print("Employee Name: "+encapsulation.Get_EmpName()+"\n");
-        System.out.print("Employee Age: "+encapsulation.Get_EmpAge());
+        encapsulation.setEmpName("Mario");
+        encapsulation.setEmpAge(32);
+        System.out.print("Employee Name: "+encapsulation.getEmpName()+"\n");
+        System.out.print("Employee Age: "+encapsulation.getEmpAge());
     }
 }

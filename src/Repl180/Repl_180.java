@@ -6,10 +6,10 @@ class EncapsulationDemo{
 
 
 
-    public String get_EmpName(){
+    public String getEmpName(){
         return this.empName;
     }
-    public int get_EmpAge(){
+    public int getEmpAge(){
         return this.empAge;
     }
 
@@ -17,7 +17,7 @@ class EncapsulationDemo{
 class Main {
     public static void main(String[] args){
         EncapsulationDemo encapsulation=new EncapsulationDemo();
-        System.out.println("Employee Name: "+encapsulation.get_EmpName());
-        System.out.print("Employee Age: "+encapsulation.get_EmpAge());
+        System.out.println("Employee Name: "+encapsulation.getEmpName());
+        System.out.print("Employee Age: "+encapsulation.getEmpAge());
     }
 }

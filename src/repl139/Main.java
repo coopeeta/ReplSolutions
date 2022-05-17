@@ -10,15 +10,15 @@ public class Main {
     }
 
     public static String alphabetical(String str) {
-        String nString = "";
-        int value;
+        String newStr = "";
         for (int i = 0; i < str.length() - 1; i++) {
-            value = Math.max((int) str.charAt(i), (int) str.charAt(i + 1));
-            nString += (char) value;
-            if (i < str.length() - 3)
-                i++;
+           if( str.charAt(i)> str.charAt(i + 1)){
+               newStr=newStr+str.charAt(i);
+           };
+
+
         }
-        return nString;
+        return newStr;
     }
 }
 

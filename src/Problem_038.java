@@ -5,10 +5,11 @@ public class Problem_038 {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Is it weekend?");
         boolean isWeekend=scanner.nextBoolean();
+        String out;
         if(!isWeekend){
-            System.out.println("Today you will be learning manual testing");
+            out="Today you will be learning manual testing";
         }else {
-            System.out.println("Today you will be learning Java");
+            out="Today you will be learning Java";
         }
     }
 }

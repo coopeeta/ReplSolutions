@@ -17,32 +17,32 @@ class Person {
         this.birthyear = birthyear;
     }
 
-    public String Get_FirstName() {
+    public String getFirstName() {
         return this.firstname;
     }
 
-    public String Get_LastName() {
+    public String getLastName() {
         return this.lastname;
     }
 
-    public String Get_Ssn() {
+    public String getSSN() {
         return this.ssn;
     }
 
-    public int Get_BirthDay() {
+    public int getBirthDay() {
         return this.birthday;
     }
 
-    public int Get_BirthMonth() {
+    public int getBirthMonth() {
         return this.birthmonth;
     }
 
-    public int Get_BirthYear() {
+    public int getBirthYear() {
         return this.birthyear;
     }
 
     public String FormatBirthday() {
-        return Get_BirthMonth() + "/" + Get_BirthDay() + "/" + Get_BirthYear();
+        return getBirthMonth() + "/" + getBirthDay() + "/" + getBirthYear();
     }
 
 

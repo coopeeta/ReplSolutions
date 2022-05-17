@@ -7,17 +7,19 @@ public class Problem_037 {
         boolean isThirsty=scanner.nextBoolean();
         System.out.println("Are you sleepy?");
         boolean isSleepy=scanner.nextBoolean();
+        String out;
         if(isThirsty &&!isSleepy){
-            System.out.println("Looks like you need to drink water");
+            out="Looks like you need to drink water";
         }else if(isThirsty){
-            System.out.println("Looks like you need to drink coffee");
+            out="Looks like you need to drink coffee";
 
         }else if(isSleepy){
-            System.out.println("Looks like you need to drink tea");
+            out="Looks like you need to drink tea";
 
         }else {
-            System.out.println("Looks like you need to drink nothing");
+           out="Looks like you need to drink nothing";
 
         }
+        System.out.println(out);
     }
 }

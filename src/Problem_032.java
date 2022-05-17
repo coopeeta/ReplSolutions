@@ -11,19 +11,21 @@ public class Problem_032 {
         gender=scanner.next().charAt(0);
         System.out.println("Please enter your age");
         age=scanner.nextInt();
+        String out;
         if(age>25){
             if(gender=='F'){
-                System.out.println("Woman");
+                out="Woman";
             }else {
-                System.out.println("Man");
+                out="Man";
             }
         }else{
             if(gender=='F'){
-                System.out.println("Girl");
+                out="Girl";
             }else {
-                System.out.println("Boy");
+                out="Boy";
             }
         }
+        System.out.println(out);
 
     }
 }

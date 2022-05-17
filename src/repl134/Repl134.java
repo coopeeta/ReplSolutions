@@ -3,7 +3,7 @@ package repl134;
 public class Repl134 {
 
     static int countVowels(String s) {
-        s = s.replaceAll("[^Aa,Ee,Ii,Oo,Uu]", "");
+        s = s.replaceAll("[^AaEeIiOoUu]", "");
         return s.length();
     }
 

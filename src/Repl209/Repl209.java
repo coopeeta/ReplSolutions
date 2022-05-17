@@ -4,38 +4,37 @@ import java.util.*;
 import static java.util.Map.*;
 class Main {
     public static void main(String[] args) {
-        List<Map<String, Object>> myList = new ArrayList<>();
+
+        List<Map<String, Object>> dataList = new ArrayList<>();
         Map<String, Object> appleMap = new LinkedHashMap<>();
         appleMap.put("Items", "Apple");
         appleMap.put("Price", 20.00);
-        appleMap.put("Quantity", 10);
-        myList.add(appleMap);
+        appleMap.put("Quantity", 10.0);
+        dataList.add(appleMap);
+
         Map<String, Object> orangeMap = new LinkedHashMap<>();
         orangeMap.put("Items", "Orange");
         orangeMap.put("Price", 21.99);
-        orangeMap.put("Quantity", 10);
-        myList.add(orangeMap);
+        orangeMap.put("Quantity", 10.0);
+        dataList.add(orangeMap);
+        double total = 0;
+        double price = 0;
+        double quantity = 0;
 
-        double total=0.0;
-
-        for (Map<String, Object> myMap : myList) {
-            Set mapSet = myMap.entrySet();
-            Iterator mapIt = mapSet.iterator();
-            while (mapIt.hasNext()) {
-                Entry it = (Entry) mapIt.next();
-                String itemKey = String.valueOf(it.getKey());
-                String item = String.valueOf(it.getValue());
-                it = (Entry) mapIt.next();
-                String priceKey = String.valueOf(it.getKey());
-                Double price = Double.valueOf(String.valueOf(it.getValue()));
-                it = (Entry) mapIt.next();
-                String quantityKey = String.valueOf(it.getKey());
-                Double quantity = Double.valueOf(String.valueOf(it.getValue()));
-                double subtotal = quantity*price;
-                System.out.println(itemKey+": "+item+" "+priceKey+": "+price+" "+quantityKey+": "+quantity+" "+"SubTotal: "+subtotal+"\n");
-                total+=subtotal;
+        for (Map<String, Object> listData : dataList) {
+            for (Entry<String, Object> entry : listData.entrySet()) {
+                if (entry.getKey().equals("Price")) {
+                    price = Double.parseDouble(entry.getValue().toString());
+                } else if (entry.getKey().equals("Quantity")) {
+                    quantity = Double.parseDouble(entry.getValue().toString());
+                }
+                System.out.print(entry.getKey() + ": " + entry.getValue() + " ");
             }
+            total += price * quantity;
+            System.out.print(" SubTotal: " + (price * quantity));
+            System.out.println();
+            System.out.println();
         }
-        System.out.println("Your Purchase total : "+total);
+        System.out.println("Your Purchase total : " + total);
     }
 }

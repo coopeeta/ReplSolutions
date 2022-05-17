@@ -5,33 +5,35 @@ public class Problem_045 {
         System.out.println("Input a number between 1-7");
         Scanner scanner=new Scanner(System.in);
         int number=scanner.nextInt();
+        String out;
         switch (number){
             case 1:
-                System.out.println("Monday");
+                out="Monday";
                 break;
             case 2:
-                System.out.println("Tuesday");
+                out="Tuesday";
                 break;
             case 3:
-                System.out.println("Wednesday");
+                out="Wednesday";
                 break;
             case 4:
-                System.out.println("Thursday");
+                out="Thursday";
                 break;
             case 5:
-                System.out.println("Friday");
+                out="Friday";
                 break;
             case 6:
-                System.out.println("Saturday");
+                out="Saturday";
                 break;
             case 7:
-                System.out.println("Sunday");
+                out="Sunday";
                 break;
             default:
-                System.out.println("Invalid");
+                out="Invalid";
 
 
         }
+        System.out.println(out);
 
     }
 }

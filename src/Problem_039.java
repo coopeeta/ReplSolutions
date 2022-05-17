@@ -5,21 +5,23 @@ public class Problem_039 {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please enter your mark");
         int marks = scanner.nextInt();
+        String out;
         if(marks>=1 && marks<=25){
-            System.out.println("Your grade is F");
+            out="Your grade is F";
         }else if(marks>25 && marks<=45){
-            System.out.println("Your grade is E");
+            out="Your grade is E";
         }else if(marks>45 && marks<=50){
-            System.out.println("Your grade is D");
+            out="Your grade is D";
         }else if(marks>50 && marks<=60){
-            System.out.println("Your grade is C");
+            out="Your grade is C";
         }else if(marks>60 && marks<=80){
-            System.out.println("Your grade is B");
+            out="Your grade is B";
         }else if(marks>80 &&marks<=100){
-            System.out.println("Your grade is A");
+            out="Your grade is A";
         }else {
-            System.out.println("Please enter valid mark");
+            out="Please enter valid mark";
         }
+        System.out.println(out);
 
     }
 }

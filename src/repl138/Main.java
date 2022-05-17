@@ -1,33 +1,32 @@
 package repl138;
 
 class AnotherClass {
-    private String myMethod1() {
-        final String aPrivate = "private";
-        return aPrivate;
+    private static String myMethod1() {
+        return  "private";
+
     }
 
-    String myMethod2() {
-        final String aDefault = "default";
-        return aDefault;
+   static String myMethod2() {
+        return  "default";
+
     }
 
-    protected String myMethod3() {
-        final String aProtected = "protected";
-        return aProtected;
+    protected static String myMethod3() {
+        return  "protected";
+
     }
 
-    public String myMethod4() {
-        final String aPublic = "public";
-        return aPublic;
+    public static String myMethod4() {
+        return "public";
+
     }
 }
 
 class Main {
     public static void main(String[] args) {
-        AnotherClass obj = new AnotherClass();
-        System.out.println(obj.myMethod2());
-        System.out.println(obj.myMethod3());
-        System.out.println(obj.myMethod4());
+        System.out.println(AnotherClass.myMethod2());
+        System.out.println(AnotherClass.myMethod3());
+        System.out.println(AnotherClass.myMethod4());
     }
 }
 

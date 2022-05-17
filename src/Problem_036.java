@@ -9,13 +9,15 @@ public class Problem_036 {
         System.out.println("Please enter two numbers");
         int number1=scanner.nextInt();
         int number2=scanner.nextInt();
+        String out;
         if(string1.equals(string2)&&number1==number2){
-            System.out.println("AND");
+          out="AND";
         }else if(string1.equals(string2) || number1==number2){
-            System.out.println("OR");
+            out="OR";
         }else {
-            System.out.println("NONE");
+            out="NONE";
         }
+        System.out.println(out);
 
     }
 }

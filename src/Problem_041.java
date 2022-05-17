@@ -5,18 +5,20 @@ public class Problem_041 {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the age of the Child");
         int age=scanner.nextInt();
+        String out;
         switch (age){
             case 1:
-                System.out.println("You can Crawl");
+                out="You can Crawl";
                 break;
             case 2:
-                System.out.println("You can Talk");
+                out="You can Talk";
             case 3:
-                System.out.println("You can Dance");
+                out="You can Dance";
             case 4:
-                System.out.println("You can get  Trouble");
+                out="You can get  Trouble";
             default:
-                System.out.println("I don't know how old you are");
+                out="I don't know how old you are";
         }
+        System.out.println(out);
     }
 }

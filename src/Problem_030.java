@@ -19,32 +19,34 @@ public class Problem_030 {
         System.out.println("Please enter month number");
         int monthNumber = month.nextInt();
 
+        String out;
         if (monthNumber == 1) {
-            System.out.println("January");
+            out="January";
         } else if (monthNumber == 2) {
-            System.out.println("February");
+            out="February";
         } else if (monthNumber == 3) {
-            System.out.println("March");
+            out="March";
         } else if (monthNumber == 4) {
-            System.out.println("April");
+            out="April";
         } else if (monthNumber == 5) {
-            System.out.println("May");
+            out="May";
         } else if (monthNumber == 6) {
-            System.out.println("June");
+            out="June";
         } else if (monthNumber == 7) {
-            System.out.println("July");
+            out="July";
         } else if (monthNumber == 8) {
-            System.out.println("August");
+            out="August";
         } else if (monthNumber == 9) {
-            System.out.println("September");
+            out="September";
         } else if (monthNumber == 10) {
-            System.out.println("October");
+            out="October";
         } else if (monthNumber == 11) {
-            System.out.println("November");
+            out="November";
         } else if (monthNumber == 12) {
-            System.out.println("December");
+            out="December";
         } else {
-            System.out.println("Invalid");
+            out="Invalid";
         }
+        System.out.println(out);
     }
 }

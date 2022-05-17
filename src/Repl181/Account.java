@@ -7,33 +7,33 @@ class Account{
     double amount;
 
     Account(String acc_no,String name,String email,double amount){
-        Set_Acc(acc_no);
-        Set_Name(name);
-        Set_EMail(email);
-        set_Amount(amount);
+        setAcc(acc_no);
+        setName(name);
+        setEMail(email);
+        setAmount(amount);
     }
-    public void Set_Acc(String acc_no){
+    public void setAcc(String acc_no){
         this.acc_no=acc_no;
     }
-    public void Set_Name(String name){
+    public void setName(String name){
         this.name=name;
     }
-    public void Set_EMail(String email){
+    public void setEMail(String email){
         this.email=email;
     }
-    public void set_Amount(Double amount){
+    public void setAmount(Double amount){
         this.amount=amount;
     }
-    public String Get_Acc(){
+    public String getAcc(){
         return this.acc_no;
     }
-    public String Get_Name(){
+    public String getName(){
         return this.name;
     }
-    public String Get_EMail(){
+    public String getEMail(){
         return this.email;
     }
-    public double Get_Amount(){
+    public double getAmount(){
         return this.amount;
     }
 }
